@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e9d2b441-5561-43cb-ad47-c9c02a65a2b2" name="edmontonhelp" url="http://edmontonhelp.com">
+        <fileTransfer host="edmontonhelp.com" port="22" privateKey="$USER_HOME$/.ssh/mykeypair.pem" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
