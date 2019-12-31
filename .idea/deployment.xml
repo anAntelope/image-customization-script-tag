@@ -7,6 +7,16 @@
           <mappings>
             <mapping deploy="/newstatic/photoedit" local="$PROJECT_DIR$/dist" web="/" />
           </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/dist/test.js" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="photoedit-app">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
         </serverdata>
       </paths>
     </serverData>

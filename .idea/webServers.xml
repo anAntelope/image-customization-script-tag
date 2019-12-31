@@ -10,6 +10,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="d41b889f-a800-4910-a531-52fb7514b985" name="photoedit-app" url="http://ec2-3-17-14-248.us-east-2.compute.amazonaws.com">
+        <fileTransfer host="ec2-3-17-14-248.us-east-2.compute.amazonaws.com" port="22" privateKey="C:\Users\Matt\.ssh\mykeypair.pem" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>
